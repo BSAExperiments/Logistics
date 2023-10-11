@@ -3,7 +3,7 @@ multibranchPipelineJob('Libraries/joml-ext') {
     branchSources {
         github {
             id('jomlextmultipipemovingblocks') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('joml-ext')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

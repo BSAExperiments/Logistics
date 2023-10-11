@@ -3,7 +3,7 @@ multibranchPipelineJob('Libraries/CrashReporter') {
     branchSources {
         github {
             id('crashreportermultipipe') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('CrashReporter')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

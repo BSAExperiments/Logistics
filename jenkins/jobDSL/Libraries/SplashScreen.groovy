@@ -3,7 +3,7 @@ multibranchPipelineJob('Libraries/SplashScreen') {
     branchSources {
         github {
             id('splashscreenmultipipe') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('SplashScreen')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

@@ -4,7 +4,7 @@ multibranchPipelineJob('Terasology/engine') {
     branchSources {
         github {
             id('terasologymultiengine') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('Terasology')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

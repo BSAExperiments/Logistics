@@ -4,7 +4,7 @@ multibranchPipelineJob('Utilities/Docker/JenkinsAgentPrecachedJava') {
     branchSources {
         github {
             id('JenkinsAgentPrecachedJava') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('JenkinsAgentPrecachedJava')
             checkoutCredentialsId('GooeyHub')
             scanCredentialsId('GooeyHub')

@@ -36,7 +36,7 @@ folderList.each { folderName ->
         scm {
             git {
                 remote {
-                    url("https://github.com/MovingBlocks/Logistics.git")
+                    url("https://github.com/BSAExperiments/Logistics.git")
                     credentials("github-app-terasology-jenkins-io")
                 }
                 branch("main")

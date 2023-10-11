@@ -3,7 +3,7 @@ multibranchPipelineJob('Libraries/JNBullet') {
     branchSources {
         github {
             id('jnbulletmultipipe') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('JNBullet')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

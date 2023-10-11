@@ -4,7 +4,7 @@ multibranchPipelineJob('Utilities/Docker/JenkinsAgentAndroid') {
     branchSources {
         github {
             id('JenkinsAgentAndroid') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('JenkinsAgentAndroid')
             checkoutCredentialsId('GooeyHub')
             scanCredentialsId('GooeyHub')

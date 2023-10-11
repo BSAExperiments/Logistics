@@ -29,8 +29,8 @@ for (char letter : letters) {
 githubOrg = "Terasology"
 credId = "gh-app-terasology"
 githubApiUri = "https://api.github.com"
-orgPipelineRepo = "https://github.com/MovingBlocks/ModuleJteConfig.git"
-libraryRepo = "https://github.com/MovingBlocks/ModuleJteLibraries.git"
+orgPipelineRepo = "https://github.com/BSAExperiments/ModuleJteConfig.git"
+libraryRepo = "https://github.com/BSAExperiments/ModuleJteLibraries.git"
 
 organizationFolder "$baseModuleFolderName/$letter", {
     // TODO: May need to tweak the cleanup config

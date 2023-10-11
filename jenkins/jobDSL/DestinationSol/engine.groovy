@@ -4,7 +4,7 @@ multibranchPipelineJob('DestinationSol/engine') {
     branchSources {
         github {
             id('destsolmultiengine') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('DestinationSol')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

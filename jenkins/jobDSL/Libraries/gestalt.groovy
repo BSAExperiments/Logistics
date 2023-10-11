@@ -3,7 +3,7 @@ multibranchPipelineJob('Libraries/Gestalt') {
     branchSources {
         github {
             id('gestaltmultipipe') // IMPORTANT: use a constant and unique identifier
-            repoOwner('MovingBlocks')
+            repoOwner('BSAExperiments')
             repository('gestalt')
             checkoutCredentialsId('github-app-terasology-jenkins-io')
             scanCredentialsId('github-app-terasology-jenkins-io')

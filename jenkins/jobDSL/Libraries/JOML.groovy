@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github-app-terasology-jenkins-io', url: 'https://github.com/MovingBlocks/JOML.git'
+                git branch: 'main', credentialsId: 'github-app-terasology-jenkins-io', url: 'https://github.com/BSAExperiments/JOML.git'
                 sh 'chmod +x mvnw'
             }
         }
